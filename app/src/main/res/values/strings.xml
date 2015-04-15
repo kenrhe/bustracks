@@ -3,4 +3,6 @@
 
     <string name="hello_world">Developed By Eric Kong, Joon Lee, Kenneth Rhee</string>
     <string name="action_settings">Settings</string>
+    <string name="intro">intro sentence</string>
+    <string name="listView">List of Buses</string>
 </resources>
