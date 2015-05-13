@@ -20,12 +20,10 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final ListView listview = (ListView) findViewById(R.id.listview);
-        String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
-                "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
-                "Linux", "OS/2", "Ubuntu", "Windows7", "Max OS X", "Linux",
-                "OS/2", "Ubuntu", "Windows7", "Max OS X", "Linux", "OS/2",
-                "Android", "iPhone", "WindowsMobile" };
+        final ListView listview = (ListView) findViewById(R.id.listView);
+        String[] values = new String[] { "Allendale", "Cliffside Park", "East Rutherford",
+                "Elmwood Park", "Fair Lawn", "Fort Lee", "Glen Rock", "Leonia",
+                "New Milford", "Palisades Park", "Paramus", "Wyckoff" };
 
         final ArrayList<String> list = new ArrayList<String>();
         for (int i = 0; i < values.length; ++i) {
